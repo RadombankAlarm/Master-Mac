@@ -31,7 +31,7 @@ if (!is_null($events['events'])) {
 			$userId = $events['userId'];			
 			
 			// Gen Text Reply
-			$gentext = "ขอบคุณที่ติดตามเรา"." \n".$displayName." User\n".$userId;
+			$gentext = "ขอบคุณที่ติดตาม CAC ครับ"." \n".$displayName." User\n".$userId;
 			// Get Replytoken
 			$replyToken = $event['replyToken'];
 			//Make a POST Request to Messaging API to reply to follower
