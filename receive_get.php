@@ -9,16 +9,16 @@ function t1($tt1)
 		];
 	return $messages;
 }
-$StrGet = $_GET["strget"];
-$text = $StrGet;
-//$text = "Test";
+//$StrGet = $_GET["strget"];
+//$text = $StrGet;
+$text = "Test";
 	
 	
 if (!is_null($text)) {
 	$messages = t1($text);
 	$url = 'https://api.line.me/v2/bot/message/push';
 	$data = [
-  		'to' => 'Cd90b89c39f5a695f6d6996c80829e269',
+  		'to' => 'U1225f0099fd26468bf40e85bc7dac258',
 		'messages' => [$messages]
 		];
 	$post = json_encode($data);
