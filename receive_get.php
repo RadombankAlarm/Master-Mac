@@ -9,9 +9,9 @@ function t1($tt1)
 		];
 	return $messages;
 }
-//$StrGet = $_GET["strget"];
-//$text = $StrGet;
-$text = "Test";
+$StrGet = $_GET["strget"];
+$text = $StrGet;
+//$text = "Test";
 	
 	
 if (!is_null($text)) {
