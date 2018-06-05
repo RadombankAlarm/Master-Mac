@@ -1,3 +1,3 @@
 <?php
-echo "Master Mac say : Hello World";
+echo "Master CAC say : Hello World";
 ?>
