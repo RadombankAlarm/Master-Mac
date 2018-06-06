@@ -14,7 +14,7 @@ $strget = $_POST["strget"];
 //$strget = utf8_decode($strget)
 //$strget = mb_convert_encoding($strget, 'UTF-8');
 $text = $strget;
-$text = "TestTest";
+//$text = "TestTest";
 	
 	
 if (!is_null($text)) {
