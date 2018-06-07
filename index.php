@@ -1,3 +1,3 @@
 <?php
-echo "Master CAC say : Hello World";
+echo "ระดมบุญ พูด ..... : สวัสดีชาวโลก";
 ?>
