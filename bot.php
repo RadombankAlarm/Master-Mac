@@ -13,7 +13,7 @@ if (!is_null($events['events'])) {
 			$toroomid = $event['source']['roomId'];
 			$togroupid = $event['source']['groupId'];
 			// Gen Text Reply
-			$gentext = "ขอบคุณที่ติดตาม CAC v.3 ครับ";
+			$gentext = "ขอบคุณที่ติดตาม radomboontaksana/Master-Mac ครับ";
 			// Get Replytoken
 			$replyToken = $event['replyToken'];
 			//Make a POST Request to Messaging API to reply to follower
